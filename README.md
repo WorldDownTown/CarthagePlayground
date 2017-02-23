@@ -32,19 +32,26 @@ $ carthage update --platform iOS --use-submodules
 1. Open `CarthagePlayground.xcworkspace`
 
 2. Drag and drop `.xcodeproj` of the library in Xcode Project Navigator.
-![path to xcodeproj](https://dl2.pushbulletusercontent.com/ki5e4a79kNf6v2omOZCPl4rZnv2AucA1/screenshot1.png)
+
+![path to xcodeproj](https://dl2.pushbulletusercontent.com/vIcvO19K2Xeo2N2X8P8mwSQEWtuxHEHH/screenshot1.png)
+
 ![project navigator](https://dl2.pushbulletusercontent.com/p81LcprwAVAYZ23DVJ5uzTQQ3i0XcSfd/screenshot2.png)
 
 3. Add `.framework` to `Embedded Binaries` in `Carthage/Build/iOS/`.
+
 ![path to framework](https://dl2.pushbulletusercontent.com/qPJqFXltiAmvZfOathxkWRlrWkykixUA/screenshot3.png)
+
 ![choose options](https://dl2.pushbulletusercontent.com/x6z6f3MpTUn0B5QPmv2ywY5czI8eDGJg/screenshot4.png)
+
 ![Embedded Binaries](https://dl2.pushbulletusercontent.com/1qPDFKOzPanYV7pSYUFLAn58IqegUN1W/screenshot5.png)
 
 4. Build
 Run workspace. (⌘R)
 
 ### Playground
+
 You can use the library in Playground.
+
 ![Xcode Playground](https://dl2.pushbulletusercontent.com/2ucFG9UNhFpqSm7n8FGLPOxi3mw5ODlM/screenshot6.png)
 
 
