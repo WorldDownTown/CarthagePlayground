@@ -46,8 +46,6 @@ $ carthage update --platform iOS --use-submodules
 #### Step 4 - Build
 Run workspace. (⌘R)
 
-### Playground
-
 #### Step 5 - Profit!
 You can now use the library in Playground!
 
