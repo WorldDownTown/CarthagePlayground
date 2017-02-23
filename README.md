@@ -40,8 +40,10 @@ $ carthage update --platform iOS --use-submodules
 #### 3. Add `.framework` to `Embedded Binaries` in `Carthage/Build/iOS/`.
 
 ![path to framework](https://dl2.pushbulletusercontent.com/qPJqFXltiAmvZfOathxkWRlrWkykixUA/screenshot3.png)
-<img src="https://dl2.pushbulletusercontent.com/x6z6f3MpTUn0B5QPmv2ywY5czI8eDGJg/screenshot4.png" alt="choose options" width="400px" />
-<img src="https://dl2.pushbulletusercontent.com/1qPDFKOzPanYV7pSYUFLAn58IqegUN1W/screenshot5.png" alt="Embedded Binaries" width="400px" />
+
+<img src="https://dl2.pushbulletusercontent.com/x6z6f3MpTUn0B5QPmv2ywY5czI8eDGJg/screenshot4.png" alt="choose options" width="600px" />
+
+<img src="https://dl2.pushbulletusercontent.com/1qPDFKOzPanYV7pSYUFLAn58IqegUN1W/screenshot5.png" alt="Embedded Binaries" width="600px" />
 
 
 #### 4. Build
