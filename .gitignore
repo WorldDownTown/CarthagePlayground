@@ -6,6 +6,9 @@
 DerivedData/
 .DS_Store
 
+## git
+.gitmodules
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
