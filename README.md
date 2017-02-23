@@ -29,23 +29,22 @@ $ carthage update --platform iOS --use-submodules
 
 ### Install Libraries in project
 
-1. Open `CarthagePlayground.xcworkspace`
+#### 1. Open `CarthagePlayground.xcworkspace`
 
-2. Drag and drop `.xcodeproj` of the library in Xcode Project Navigator.
+#### 2. Drag and drop `.xcodeproj` of the library in Xcode Project Navigator.
 
 ![path to xcodeproj](https://dl2.pushbulletusercontent.com/vIcvO19K2Xeo2N2X8P8mwSQEWtuxHEHH/screenshot1.png)
 
-![project navigator](https://dl2.pushbulletusercontent.com/p81LcprwAVAYZ23DVJ5uzTQQ3i0XcSfd/screenshot2.png)
+<img src="https://dl2.pushbulletusercontent.com/p81LcprwAVAYZ23DVJ5uzTQQ3i0XcSfd/screenshot2.png" alt="project navigator" width="300px" />
 
-3. Add `.framework` to `Embedded Binaries` in `Carthage/Build/iOS/`.
+#### 3. Add `.framework` to `Embedded Binaries` in `Carthage/Build/iOS/`.
 
 ![path to framework](https://dl2.pushbulletusercontent.com/qPJqFXltiAmvZfOathxkWRlrWkykixUA/screenshot3.png)
+<img src="https://dl2.pushbulletusercontent.com/x6z6f3MpTUn0B5QPmv2ywY5czI8eDGJg/screenshot4.png" alt="choose options" width="400px" />
+<img src="https://dl2.pushbulletusercontent.com/1qPDFKOzPanYV7pSYUFLAn58IqegUN1W/screenshot5.png" alt="Embedded Binaries" width="400px" />
 
-![choose options](https://dl2.pushbulletusercontent.com/x6z6f3MpTUn0B5QPmv2ywY5czI8eDGJg/screenshot4.png)
 
-![Embedded Binaries](https://dl2.pushbulletusercontent.com/1qPDFKOzPanYV7pSYUFLAn58IqegUN1W/screenshot5.png)
-
-4. Build
+#### 4. Build
 Run workspace. (⌘R)
 
 ### Playground
