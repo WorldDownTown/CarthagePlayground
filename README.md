@@ -3,10 +3,7 @@
 ![Swift 3.0.2](https://img.shields.io/badge/Swift-3.0.2-orange.svg)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-
-Template of Xcode Playground for testing Carthage libraries.
-
-This Xcode project helps to try Xcode Playground with Carthage libraries.
+A working template for quickly testing Carthage libraries within an xcode playground.
 
 ## Usage
 
@@ -29,15 +26,15 @@ $ carthage update --platform iOS --use-submodules
 
 ### Install Libraries in project
 
-#### 1. Open `CarthagePlayground.xcworkspace`
+#### Step 1 - Open `CarthagePlayground.xcworkspace`
 
-#### 2. Drag and drop `.xcodeproj` of the library in Xcode Project Navigator.
+#### Step 2 - Drag and drop `.xcodeproj` of the library in Xcode Project Navigator.
 
 ![path to xcodeproj](https://dl2.pushbulletusercontent.com/vIcvO19K2Xeo2N2X8P8mwSQEWtuxHEHH/screenshot1.png)
 
 <img src="https://dl2.pushbulletusercontent.com/p81LcprwAVAYZ23DVJ5uzTQQ3i0XcSfd/screenshot2.png" alt="project navigator" width="300px" />
 
-#### 3. Add `.framework` to `Embedded Binaries` in `Carthage/Build/iOS/`.
+#### Step 3 - Add `.framework` to `Embedded Binaries` in `Carthage/Build/iOS/`.
 
 ![path to framework](https://dl2.pushbulletusercontent.com/qPJqFXltiAmvZfOathxkWRlrWkykixUA/screenshot3.png)
 
@@ -46,12 +43,13 @@ $ carthage update --platform iOS --use-submodules
 <img src="https://dl2.pushbulletusercontent.com/1qPDFKOzPanYV7pSYUFLAn58IqegUN1W/screenshot5.png" alt="Embedded Binaries" width="600px" />
 
 
-#### 4. Build
+#### Step 4 - Build
 Run workspace. (⌘R)
 
 ### Playground
 
-You can use the library in Playground.
+#### Step 5 - Profit!
+You can now use the library in Playground!
 
 ![Xcode Playground](https://dl2.pushbulletusercontent.com/2ucFG9UNhFpqSm7n8FGLPOxi3mw5ODlM/screenshot6.png)
 
